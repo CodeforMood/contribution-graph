@@ -1,6 +1,3 @@
-import { format, parseISO } from "date-fns";
-import { getContributionDays, getFillColorClass } from "../../utils";
-
 export function ContributionTableInfoRow({
   dayOfWeek,
   contributionDaysInterval,

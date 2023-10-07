@@ -1,2 +1,2 @@
 # contribution-graph
-Created with CodeSandbox
+Тестовое задание для Digital Partners Global

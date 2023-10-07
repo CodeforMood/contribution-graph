@@ -1,4 +1,80 @@
+
+* {
+  box-sizing: border-box;
+}
+
 .App {
+  margin: 55px 95px 55px 95px;
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contribution-graph {
+  padding: .125em .5em .125em 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #959494;
+  text-align: left;
+  fill: black;  
+}
+
+.contribution-info-graph {
+  padding-top: 15px;
+  padding-left: 23px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #959494;
+  text-align: left;
+
+ 
+}
+
+.contribution-graph .lth_nine, .contribution-info-graph .lth_nine{
+  background-color:#ACD5F2;
+}
+
+.contribution-graph .lth_nineteen, .contribution-info-graph .lth_nineteen{
+  background-color:#7FA8C9;
+}
+
+.contribution-graph .lth_twenty_nine, .contribution-info-graph .lth_twenty_nine{
+  background-color:#527BA0;
+}
+
+.contribution-graph .gth_thirty, .contribution-info-graph .gth_thirty {
+  background-color:#254E77;
+}
+
+.contribution-day {
+    background-color:#EDEDED;
+    outline: 1px solid var(--color-calendar-graph-day-border);
+    outline-offset: -1px;
+}
+
+.App .tooltip {
+  text-align: center;
+  color: #7C7C7C;
+  font-size: 10px;
+  width:145px;
+  height:42px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  white-space: pre-wrap;
+  line-height: 16.1px;
+}
+
+.App .tooltip::first-line {
+  text-align: center;
+  font-size: 12px;
+  width:145px;
+  height:42px;
+  color: white;
+}
+
+td {
+  height: 15px;
+  width: 15px;
 }
